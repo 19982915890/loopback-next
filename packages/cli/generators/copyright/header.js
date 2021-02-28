@@ -9,7 +9,7 @@ const {git, getYears} = require('./git');
 const path = require('path');
 const {FSE, jsOrTsFiles} = require('./fs');
 const chalk = require('chalk');
-const Project = require('@lerna/project');
+const {Project} = require('@lerna/project');
 
 const {spdxLicenseList} = require('./license');
 

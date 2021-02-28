@@ -12,7 +12,7 @@ const assert = require('assert');
 const spawn = require('cross-spawn');
 const util = require('util');
 
-const Project = require('@lerna/project');
+const {Project} = require('@lerna/project');
 
 /**
  * Get a list of lerna packages with the optional filter function
